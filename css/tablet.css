@@ -1,0 +1,163 @@
+/* =========================================== */
+/* ==============MAIN================== */
+/* =========================================== */
+
+/* MAIN SEARCH */
+
+.main__search
+{
+    padding:  0 60px;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.main__search--title
+{
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.main__search--paragraph
+{
+    font-size: 2.5rem;
+}
+
+.main__search--house
+{
+    display: flex;
+    width: 100%;
+}
+
+.search__house--input
+{
+    width: 40%;
+    border-right: 2px solid var(--light-blue);
+}
+
+.select__tipo
+{
+    margin-left: 10px;
+}
+
+.select__house
+{
+    width: 40%;
+}
+
+.select__button
+{
+    display: block;
+    margin-bottom: 7px;
+}
+
+.main__search--button
+{
+    display: none;
+}
+
+/* MAIN WHY */
+
+.main__why
+{
+    flex-direction: unset;
+}
+
+.main__why--title
+{
+    display: none;
+}
+
+.main__why--card
+{
+    margin-left: 40px;
+}
+
+.main__why--benefits
+{
+    flex-direction: column;
+    overflow-y: hidden;
+    height: 80%;
+    margin-top: 80px;
+}
+
+.benefits__cards
+{
+    flex-direction: unset;
+}
+
+.benefits__cards--title
+{
+    margin-bottom: 20px;
+}
+
+.benefits__cards--paragraph
+{
+    margin-bottom: 20px;
+}
+
+.benefits__cards--ancla
+{
+    font-weight: bold;
+}
+
+.benefits__cards--image figure
+{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.main__why--benefits div:nth-child(2) .benefits__cards--image figure:nth-child(1)
+{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.main__why--benefits div:nth-child(3) .benefits__cards--image figure:nth-child(1)
+{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.main__why--buttons
+{
+    display: none;
+}
+
+/* MAIN ZONE */
+
+.main__zone--container-buttons
+{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* MAIN OTHERS */
+
+.main__others
+{
+    flex-direction: unset;
+}
+
+/* =========================================== */
+/* ==============FOOTER================== */
+/* =========================================== */
+
+.footer__location
+{
+    flex-direction: unset;
+}
